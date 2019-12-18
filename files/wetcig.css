@@ -1,4 +1,4 @@
-/* Lily's Flower Garden theme */
+/* Wat Cigret theme */
 
 @font-face {
 	font-family:'Comic Relief';
@@ -14,7 +14,7 @@
 	box-sizing:border-box;
 }
 
- 
+
 /* Page Settings */
 html {
 	height:100%;
@@ -31,13 +31,12 @@ body {
 	background-position:206px 0px;
 	font-family:"Comic Sans MS", "Comic Sans", "Comic Relief", sans-serif;
 	font-size:16px;
-	color:#000000;
+	color:#DDDDDD;
 }
 
 
 .page {
 	display:table;
-	cursor:url('img/cursorarrow.gif'),auto;
 	width:100%;
 	height:100%;
 	padding:0px 0px 0px 206px;
@@ -51,11 +50,6 @@ img {
 }
 a img {
 	border-style:none;
-}
-
-/* Link Formatting */
-a {
-	cursor:url('img/cursorlink.gif'),pointer;
 }
 
 
@@ -87,13 +81,13 @@ header a {
 header h1 {
 	display:table-cell;
 	vertical-align:middle;
-	color:#7854B0;
+	color:#0084EC;
 	font-size:48px;
 	margin:0px;
 	padding:0px;
 }
 header h2 {
-	color:#A67EBD;
+	color:#0084EC;
 	font-size:36px;
 	margin:6px;
 	padding:0px;
@@ -112,7 +106,8 @@ header h2 {
 
 /* Fake Navigation Frame */
 .main > nav {
-	background-color:#591982;
+	background-color:#626262;
+	background:url('img/favicon.jpg') top center repeat-y;
 	display:block;
 	overflow:auto;
 	z-index:1000;
@@ -127,7 +122,6 @@ header h2 {
 }
 .main > nav:before {
 	content:"";
-	background:url('img/frameborder.gif') top center repeat-y;
 	display:block;
 	width:6px;
 	height:100%;
@@ -137,7 +131,6 @@ header h2 {
 	cursor:auto;
 }
 .main > nav:after {
-	content:url('img/lilyconstruction.gif');
 	display:block;
 	margin-top:5px;
 }
@@ -173,7 +166,7 @@ header h2 {
 	border-left:1px solid #4C4C4C;
 	border-right:1px solid #D2D2D2;
 	border-bottom:1px solid #D2D2D2;
-	background-color:#EEF27C;
+	background-color:#57CD00;
 }
 .main > nav ul li a {
 	display:block;
@@ -181,16 +174,6 @@ header h2 {
 	text-align:center;
 	font-size:18px;
 	width:100%;
-}
-.main > nav ul li a.updated {
-	background-image:url('img/updated.gif');
-	background-position:105px 3px;
-	background-repeat:no-repeat;
-}
-.main > nav ul li a.new {
-	background-image:url('img/new1.gif');
-	background-position:122px 3px;
-	background-repeat:no-repeat;
 }
 .main > nav .menu > p {
 	display:block;
@@ -343,7 +326,6 @@ article ul ul, article ul ol, article ol ul, article ol ol {
 }
 .post:before {
 	content:"";
-	background:url('img/divider.gif') center center no-repeat;
 	display:block;
 	position:absolute;
 	width:100%;
@@ -352,7 +334,6 @@ article ul ul, article ul ol, article ol ul, article ol ol {
 }
 article.last:after, .post:last-child:after {
 	content:"";
-	background:url('img/divider.gif') center center no-repeat;
 	display:block;
 	position:absolute;
 	width:100%;
@@ -360,7 +341,7 @@ article.last:after, .post:last-child:after {
 	bottom:-70px;
 }
 .post h1 {
-	color:#7854B0;
+	color:#00D0EC;
 	font-size:32px;
 	margin:0px 0px 6px;
 }
@@ -430,19 +411,6 @@ article.last:after, .post:last-child:after {
 	max-width:144px;
 	max-height:146px;
 }
-.data > figure img:hover {
-	cursor:url('img/cursormagnify.gif'),pointer;
-}
-.data a[href*="amazon.com"] {
-	background:url('img/buttons/amazon.gif') 0px 0px no-repeat;
-	display:block;
-	width:90px;
-	height:28px;
-	overflow:hidden;
-	margin:0px;
-	padding:0px 0px 0px 90px;
-	text-decoration:none;
-}
 
 /* Gallery page table layout */
 .gallery {
@@ -505,7 +473,7 @@ i.sup {
 	font-size:9.93333px;
 	line-height:9.93333px;
 	color:rgb(6, 69, 173);
-	vertical-align:super;	
+	vertical-align:super;
 }
 i.sup:before {
 	color:#000000;
@@ -567,7 +535,7 @@ blockquote:before, .post figure:before, .generic figure:before {
 	width:160px;
 }
 .post figure.right, .generic figure.right, .post figure.imgcr, .generic figure.imgcr {
-	float:right;	
+	float:right;
 	clear:left;
 	margin-left:10px;
 }
